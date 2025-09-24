@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:library_store/Features/Splash/Presentation//Views/SplashView.dart';
 void main() {
   runApp(const LibraryStore());
 }
@@ -9,7 +10,7 @@ class LibraryStore extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      home: SplashScreen(),
+      home: SplashView(),
 
     );
   }
