@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
-
+import 'package:get/get.dart';
 void main() {
-  runApp(const MyApp());
+  runApp(const LibraryStore());
 }
 class LibraryStore extends StatelessWidget {
   const LibraryStore({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return GetMaterialApp(
+      home: SplashScreen(),
+
+    );
   }
 }
